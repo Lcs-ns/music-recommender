@@ -1,0 +1,28 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Bytecode do Python
+__pycache__/
+*.pyc
+
+# Dados
+data/raw/
+data/processed/
+
+# Logs e arquivos temporários
+*.log
+*.sqlite3
+
+# Arquivos de IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Poetry
+poetry.lock
+
+# Build e distribuição
+dist/
+build/
+*.egg-info/
